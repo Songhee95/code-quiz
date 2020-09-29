@@ -72,6 +72,7 @@ function viewScores(){
   allDoneSection.style.display = 'none';
 }
 function startButton(){
+  userId.value= '';
   totalTime = 75;
   startContainer.style.display = 'none';
     timeDisplay.textContent = totalTime;
@@ -151,9 +152,8 @@ function submit(){
   storeScore();
   allDoneSection.style.display = 'none';
   rankingWrap.style.display="block";
-  // hiscores page 
+  // highscores page 
   rankingList();
-  userId.value.textContent ='';
 }
 function storeScore(){
   localStorage.setItem('scoreList', JSON.stringify(scoreList));
