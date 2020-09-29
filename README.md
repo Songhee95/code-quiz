@@ -18,13 +18,13 @@ This project can be used for checking general JavaScript knowledge for Developer
 
 
 ## Usage
-![GitHub Logo](./images/1.JPG)
-![GitHub Logo](./images/2.JPG)
-![GitHub Logo](./images/3.JPG)
-![GitHub Logo](./images/4.JPG)
-![GitHub Logo](./images/5.JPG)
-![GitHub Logo](./images/6.JPG)
-![GitHub Logo](./images/7.JPG)
+![GitHub Logo](./assets/images/1.JPG)
+![GitHub Logo](./assets/images/2.JPG)
+![GitHub Logo](./assets/images/3.JPG)
+![GitHub Logo](./assets/images/4.JPG)
+![GitHub Logo](./assets/images/5.JPG)
+![GitHub Logo](./assets/images/6.JPG)
+![GitHub Logo](./assets/images/7.JPG)
 
 
 ## License
