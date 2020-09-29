@@ -4,6 +4,16 @@ div{
 hr{
     background: rgb(39, 38, 38);
 }
+#startPage h1{
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#startPage p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 #line{
     height: 5px;
 }
