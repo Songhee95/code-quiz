@@ -31,7 +31,7 @@ var questionArray = [{
       "1. Math.max(x,y)",
       "2. ceil(x,y)",
       "3. Math.ceil(x,y)",
-      "3. top(x,y)"
+      "4. top(x,y)"
     ],
     correctAnswer: "1"
   }
