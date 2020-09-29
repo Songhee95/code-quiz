@@ -4,6 +4,13 @@ div{
 hr{
     background: rgb(39, 38, 38);
 }
+.btn-sm{
+    background-color: rgb(121, 34, 121);
+    color: white;
+}
+.btn-sm:hover{
+    background-color: rgb(133, 99, 133);
+}
 #startPage h1{
     font-size: 3.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,13 +34,6 @@ hr{
 }
 #viewHighScore:hover{
     color: grey;
-}
-.btn-sm{
-    background-color: rgb(121, 34, 121);
-    color: white;
-}
-.btn-sm:hover{
-    background-color: rgb(133, 99, 133);
 }
 #checkAnswerWrap{
     animation: fade 1.5s;
