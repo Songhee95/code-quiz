@@ -71,6 +71,11 @@ function viewScores(){
   questionDisplay.style.display = 'none';
   allDoneSection.style.display = 'none';
 }
+function afterTimeout(){
+  clearInterval(timer);
+  alert('Timeout!');
+  goBack();
+}
 function startButton(){
   userId.value= '';
   totalTime = 75;
@@ -81,8 +86,7 @@ function startButton(){
       totalTime--;
       timeDisplay.textContent = totalTime;
       if(totalTime <0){
-        alert('Time out!')
-        clearInterval(setInterval);
+        afterTimeout();
       }
     },1000);;
     createNewQuiz();
