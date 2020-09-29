@@ -26,13 +26,14 @@ var questionArray = [{
     correctAnswer: "2"
   },
   {
-    question: "How can you detect the client's browser name?",
+    question: "How do you find the number with the highest value of x and y?",
     answers: [
-      "1. client.navName",
-      "2. navigator.appName",
-      "3. browser.name"
+      "1. Math.max(x,y)",
+      "2. ceil(x,y)",
+      "3. Math.ceil(x,y)",
+      "3. top(x,y)"
     ],
-    correctAnswer: "2"
+    correctAnswer: "1"
   }
 ];
 var headBar = document.querySelector('#head');
