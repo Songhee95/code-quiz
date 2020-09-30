@@ -73,8 +73,13 @@ function viewScores(){
 }
 function afterTimeout(){
   clearInterval(timer);
-  alert('Timeout!');
-  goBack();
+  alert('GAMEOVER');
+  clear();
+  totalTime=0;
+  CheckAnswer.style.display = 'none';
+  allDoneSection.style.display = 'block';
+  Score.textContent = 0;
+  return;
 }
 function startButton(){
   userId.value= '';
